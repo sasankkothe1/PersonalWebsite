@@ -1,11 +1,13 @@
-// @ts-ignore
 import React from  "react";
-// @ts-ignore
 import Header from "../components/Header";
+import Middle from "../components/Middle";
 
 const Welcome: React.FC = () => {
     return(
-        <Header />
+        <div>
+            <Header />
+            <Middle />
+        </div>
     )
 }
 

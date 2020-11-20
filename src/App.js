@@ -5,8 +5,7 @@ import Welcome from './pages/Welcome';
 function App() {
   return (
     <div className="App">
-      <h1>Hi</h1>
-      No no
+      <Welcome />
     </div>
   );
 }
